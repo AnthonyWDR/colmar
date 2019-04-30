@@ -31,14 +31,10 @@ nav {
   border: 1px solid orange;
   background-color: grey;
 }
-.container {
-  margin: 32px 0px 32px 24px;
-  display: flex;
-  border: 1px solid red;
-}
 .banner img {
   width: 60%;
   height: ;
+  padding: 32px 0px 32px 24px;
 }
 .bannertext {
   margin-left: 24px;
