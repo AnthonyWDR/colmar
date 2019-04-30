@@ -1,0 +1,58 @@
+html {
+  font-family: sans-serif;
+
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  margin-left: 24px;
+}
+.logo span {
+  color: grey;
+  font-weight: lighter;
+}
+.options {
+  display: flex;
+  margin-right: 16px;
+}
+.options h3 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.banner {
+  width: 100%;
+  border: 1px solid orange;
+  background-color: grey;
+}
+.container {
+  margin: 32px 0px 32px 24px;
+  display: flex;
+  border: 1px solid red;
+}
+.banner img {
+  width: 100%;
+  height: ;
+}
+.bannertext {
+  margin-left: 24px;
+  width: 40%;
+
+}
+.banner h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 0.8px 0.8px white;
+}
+
+
+
+video {
+  width: 60%;
+}
