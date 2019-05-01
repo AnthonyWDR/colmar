@@ -29,22 +29,45 @@ nav {
 .banner {
   width: 100%;
   border: 1px solid orange;
-  background-color: grey;
+  background-image: linear-gradient(to top, white, black);
+  display: flex;
+}
+.content {
+  margin: 32px 0px 32px 24px;
+  display: flex;
+}
+.bannerimg {
+  width: 60%;
 }
 .banner img {
-  width: 60%;
+  width: 100%;
   height: ;
-  padding: 32px 24px 32px 24px;
 }
 .bannertext {
-  width: 40%;
+  width: 30%;
+  margin-left: 48px;
+  align-self: center;
 
 }
 .banner h1 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: bold;
   text-shadow: 0.8px 0.8px white;
 }
+.banner h1 span {
+  text-decoration: underline;
+  color: white;
+  text-shadow: 0.8px 0.8px black;
+  text-decoration-color: black;
+}
+.banner h1 span:hover {
+  text-decoration: underline;
+  color: black;
+  text-shadow: 0.8px 0.8px white;
+  text-decoration-color: white;
+  transition: color 0.5s linear 0.2s;
+}
+
 
 
 
