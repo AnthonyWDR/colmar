@@ -57,7 +57,7 @@ nav {
 .banner h1 span {
   text-decoration: underline;
   color: white;
-  text-shadow: 0.8px 0.8px black;
+  text-shadow: 2px 2px black;
   text-decoration-color: black;
 }
 .banner h1 span:hover {
@@ -65,7 +65,16 @@ nav {
   color: black;
   text-shadow: 0.8px 0.8px white;
   text-decoration-color: white;
-  transition: color 0.5s linear 0.2s;
+  transition: color 0.3s linear 0s;
+}
+.banner h2 {
+  font-size: 2rem;
+  margin-top: 5px;
+}
+.banner button {
+  margin-top: 15px;
+  padding: 15px 38%;
+  border-radius: 5px;
 }
 
 
