@@ -28,7 +28,6 @@ nav {
 }
 .banner {
   width: 100%;
-  border: 1px solid orange;
   background-image: linear-gradient(to top, white, black);
   display: flex;
 }
@@ -70,6 +69,14 @@ nav {
 .banner h2 {
   font-size: 2rem;
   margin-top: 5px;
+  font-family: 'lobster', "cursive";
+  font-weight: ;
+  text-align: right;
+  visibility: hidden;
+}
+.bannertext:hover  .bannertext h2 {
+  visibility: visible;
+  transition: visible 0.3 linear 0s;
 }
 .banner button {
   margin-top: 15px;
