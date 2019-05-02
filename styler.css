@@ -8,6 +8,9 @@ nav {
   align-items: center;
   height: 64px;
 }
+img {
+  max-width: 100%;
+}
 .logo {
   display: flex;
   align-items: center;
@@ -34,13 +37,13 @@ nav {
 .content {
   margin: 32px 0px 32px 24px;
   display: flex;
+  width: 100%;
 }
 .bannerimg {
   width: 60%;
 }
 .banner img {
   width: 100%;
-  height: ;
 }
 .bannertext {
   width: 30%;
@@ -80,11 +83,24 @@ nav {
 }
 .banner button {
   margin-top: 15px;
-  padding: 15px 38%;
+  padding: 8px 38%;
   border-radius: 5px;
+  font-size: 1.2rem;
 }
-
-
+.news {
+  display: flex;
+  width: 100%;
+  margin-left: 24px;
+}
+.mainnews {
+  width: 60%;
+}
+.mainnews img {
+  width: 100%;
+}
+.sidenews {
+  margin-left: 24px;
+}
 
 
 video {
