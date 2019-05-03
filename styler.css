@@ -8,9 +8,7 @@ nav {
   align-items: center;
   height: 64px;
 }
-img {
-  max-width: 100%;
-}
+
 .logo {
   display: flex;
   align-items: center;
@@ -103,10 +101,11 @@ img {
   margin-top: 32px;
 }
 .sidenews {
-  
+
 }
 .newscard {
   display: flex;
+  margin-left: 24px;
 
 }
 .newscard:nth-child(2n+2) {
@@ -117,7 +116,7 @@ img {
 
 }
 .newscardimg {
-
+  width: 35%;
 }
 .newscardimg img {
 
