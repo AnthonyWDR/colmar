@@ -30,26 +30,20 @@ img {
   margin-right: 8px;
 }
 .banner {
-  width: 100%;
   background-image: linear-gradient(to top, white, black);
   display: flex;
-}
-.content {
-  margin-top: 32px;
-  display: flex;
-  width: 100%;
+  margin-left: 24px;
+  margin-bottom: 32px;
 }
 .bannerimg {
   width: 60%;
-  margin-left: 24px;
 }
 .banner img {
   width: 100%;
-  margin-bottom: 32px;
 }
 .bannertext {
   width: 30%;
-  margin-left: 48px;
+  margin-left: 40px;
   align-self: center;
 
 }
@@ -91,12 +85,12 @@ img {
 }
 .news {
   display: flex;
-  width: 100%;
-  margin-top: 32px;
   margin-left: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .mainnews {
-  width: 60%;
+  width: 65%;
 }
 .mainnews img {
   width: 100%;
@@ -107,27 +101,31 @@ img {
 }
 .mainnews p {
   margin-top: 32px;
-  margin-bottom: 32px;
 }
 .sidenews {
   width: 40%;
-  background-color: red;
+  margin-left: 40px;
 }
 .newscard {
   display: flex;
-  margin-left: 16px;
+  padding-left: 16px;
 }
 .newscard:nth-child(2n+2) {
   margin-top: 32px;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
+}
+.newscard:last-child {
+  background-color: lightgrey;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .newscardimg {
   height: auto;
-  width: 45%;
+  width: 53%;
 }
 .sidenewstext {
   width: 65%;
-  margin-left: 16px;
+  margin-left: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
