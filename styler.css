@@ -108,16 +108,16 @@ nav {
 }
 .newscard {
   display: flex;
+  padding-left: 16px;
   margin-left: 24px;
-  width: 100%;
-
 }
 .newscard:nth-child(2n+2) {
   margin-top: 32px;
   margin-bottom: 16px;
 }
 .newscard:last-child {
-
+  background-color: lightgrey;
+  padding: 16px 0px 16px 16px;
 }
 .newscardimg {
   width: 35%;
@@ -129,15 +129,73 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 65%;
+  margin-left: 24px;
 }
 .sidenewstext h4 {
   margin-top: 8px;
   margin-bottom: 8px;
   line-height: 1.4;
 }
+.learning {
+  background-image: linear-gradient(to top, white, lightgrey);
+  min-width: 100% ;
+  padding-bottom: 32px;
+}
+.learningblock  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1006px;
+  height: auto;
+  justify-content: space-between;
+  align-content: space-between;
+  margin: 0 auto;
+}
+.learningcard {
+  background-color: white;
+  width: 314px;
+  height: auto;
+  box-shadow: 0 10px 12px rgba(42, 77, 110, 0.9);
+  margin-top: 32px;
+}
+.learningimg {
+  width: 100%;
+}
+.learningimg img {
+  max-width: 100%;
+  height: auto;
+}
+.learningcard h2, .learningcard h3, .learningcard p {
 
-
-
-video {
-  width: 60%;
+}
+.learningcard h2 {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.learningcard h3 {
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.learningcard p {
+  margin-left: 16px;
+  padding-bottom: 24px;
+}
+h5 {
+  text-align: center;
+  margin-top: 32px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.newsimg video {
+  width: 100%;
+}
+.grey {
+  background-color: lightgrey;
+  padding: 16px 0px 16px 16px;
+}
+.newscard.white  {
+  background-color: white;
+  margin-top: 0px;
 }
