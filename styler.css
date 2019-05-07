@@ -244,7 +244,7 @@ footer p {
   .bannertext h1 {
     font-size: 3.6rem;
   }
-  .mainnews {
+  .mainnews.first {
     display: none;
   }
   .banner h2 {
@@ -279,5 +279,24 @@ footer p {
   }
   .learningblock {
     justify-content: center;
+  }
+  .news.second .sidenews {
+    display: none;
+  }
+  .news.second h1, .news.second h2 {
+    display: none;
+  }
+  .news.second {
+    margin-bottom: 0px;
+  }
+  .news.second .mainnews {
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  footer {
+    margin-bottom: 16px;
+    color: lightgrey;
+    font-size: 0.5rem;
   }
 }
