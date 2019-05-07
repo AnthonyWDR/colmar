@@ -68,11 +68,13 @@ nav {
 }
 .banner h2 {
   font-size: 2rem;
-  margin-top: 5px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   font-family: 'lobster', "cursive";
+  text-shadow: 0.8px 0.8px gold;
   font-weight: ;
   text-align: right;
-  visibility: hidden;
+  visibility: ;
 }
 .bannertext:hover  .bannertext h2 {
   visibility: visible;
@@ -210,11 +212,35 @@ footer p {
   margin-left: 24px;
   margin-right: 24px;
 }
-@media query (max-width: 426px) {
+@media (max-width: 426px) {
   #PC {
     display: none;
   }
   #MOBILE {
     display: flex;
+  }
+  #MOBILE .moptions {
+    display: flex;
+    justify-content: space-around;
+  }
+  .banner {
+    flex-wrap: wrap;
+  }
+  .bannerimg {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .bannertext {
+    margin-left: 16px;
+    width: 100%;
+  }
+  .bannertext h1 {
+    font-size: 3.6rem;
+  }
+  .mainnews {
+    display: none;
+  }
+  .banner h2 {
+    text-align: center;
   }
 }
