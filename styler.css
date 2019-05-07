@@ -8,7 +8,13 @@ nav {
   align-items: center;
   height: 64px;
 }
-
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: gold;
+  text-shadow: 0.8px 0.8px black;
+}
 .logo {
   display: flex;
   align-items: center;
@@ -95,9 +101,14 @@ nav {
   max-width: 60%;
   margin-left: 24px;
 }
-.newsimg {
-
-
+.mainnews h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 0.8px 0.8px gold;
+}
+.mainnews h2 {
+  font-family:"cursive";
+  line-height: 1.2;
 }
 .newsimg img {
   width: 100%;
@@ -150,6 +161,9 @@ nav {
 .learning h1 {
   text-align: center;
   padding-top: 32px;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 0.8px 0.8px white;
 }
 .learningblock  {
   display: flex;
@@ -194,8 +208,8 @@ nav {
 h5 {
   text-align: center;
   margin-top: 32px;
-  font-size: 2rem;
   font-weight: bold;
+  font-size: 3rem;
 }
 .newsimg video {
   width: 100%;
@@ -211,6 +225,8 @@ h5 {
 footer {
   display: flex;
   justify-content: space-between;
+  color: lightgrey;
+  margin-bottom: 16px;
 }
 footer p {
   margin-left: 24px;
