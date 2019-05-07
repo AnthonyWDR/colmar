@@ -118,6 +118,7 @@ a {
 }
 .mainnews p {
   margin-top: 32px;
+  color: grey;
 }
 .sidenews {
   width: 40%;
@@ -152,6 +153,11 @@ a {
   margin-top: 8px;
   margin-bottom: 8px;
   line-height: 1.4;
+}
+.sidenewstext h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "lobster";
 }
 .learning {
   background-image: linear-gradient(to top, white, lightgrey);
